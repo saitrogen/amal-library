@@ -9,14 +9,14 @@ const Header = () => {
   return (
     <header className='bg-slate-600 py-3 w-screen '>
       <div className=' px-1 sm:px-4 md:px-8 h-auto w-auto items-center  '>
-        <div id='log-nav-div' className='flex flex-col items-center h-auto w-auto justify-center sm:gap-2 lg:flex-row  lg:justify-between '>
+        <div id='log-nav-div' className='flex flex-col items-center h-auto w-full sm:justify-center justify-between sm:gap-2 lg:flex-row  lg:justify-between '>
 
 
-          <div id='logo-menu-div' className='flex flex-row justify-between items-center gap-10 sm:gap-0 w-auto '>
-            <div id='logo-div' className='flex flex-row justify-start items-center gap-2'>
+          <div id='logo-menu-div' className='flex flex-row justify-between items-center gap-10 sm:gap-0 w-full px-3 sm:px-0 sm:w-auto '>
+            <div id='logo-div' className='flex flex-row justify-start items-center gap-2 '>
               <Image src="/logo.webp" alt="logo" width={64} height={64} className="rounded-xl" />
-              <span className='text-white text-5xl font-medium '>Amal</span>
-              <span className='text-white text-5xl font-medium '>Library</span>
+              <span className='text-white text-3xl sm:text-4xl font-medium '>Amal</span>
+              <span className='text-white text-3xl sm:text-4xl font-medium '>Library</span>
             </div>
 
             <Menu className='sm:hidden m' width={32} height={32} />
