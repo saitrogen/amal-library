@@ -3,6 +3,7 @@ import React from 'react'
 
 import {  Instagram, Menu, Twitter } from 'lucide-react';
 import Image from 'next/image';
+import { ModeToggle } from '../mode-toggle';
 
 
 const Header = () => {
@@ -15,13 +16,13 @@ const Header = () => {
           <div id='logo-menu-div' className='flex flex-row justify-between items-center gap-10 sm:gap-0 w-full px-3 sm:px-0 sm:w-auto '>
             <div id='logo-div' className='flex flex-row justify-start items-center gap-2 '>
               <Image src="/logo.webp" alt="logo" width={64} height={64} className="rounded-xl" />
-              <span className='text-white text-3xl sm:text-4xl font-medium '>Amal</span>
-              <span className='text-white text-3xl sm:text-4xl font-medium '>Library</span>
+              <span className='text-slate-100 text-3xl sm:text-4xl font-medium '>Amal</span>
+              <span className='text-slate-100 text-3xl sm:text-4xl font-medium '>Library</span>
             </div>
-
-            <Menu className='sm:hidden m' width={32} height={32} />
-
-
+            <div className='flex flex-row justify-end items-center gap-2 '>
+            <ModeToggle />
+            <Menu className='sm:hidden text-slate-100' width={32} height={32}  />
+            </div>
           </div>
 
 
