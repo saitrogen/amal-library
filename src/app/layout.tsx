@@ -24,6 +24,8 @@ export default function RootLayout({
     <html lang="en" className='light'>
       <body className={`${inter.className}, flex flex-col `}>
         {/* <Providers> */}
+
+      
         <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -32,7 +34,7 @@ export default function RootLayout({
           >
         <Header/>
         {children}
-        <Footer/>
+        {/* <Footer/> */}
         </ThemeProvider>
         {/* </Providers> */}
         </body>

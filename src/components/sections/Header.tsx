@@ -36,19 +36,19 @@ const Header = () => {
                   <Link href='/about'> <span className=' px-3'>About</span></Link>
                 </li>
                 <li>
-                  <Link href='#'><span className=' px-3'>Digital</span></Link>
+                  <Link href='/digital'><span className=' px-3'>Digital</span></Link>
                 </li>
                 <li>
-                  <Link href='#'><span className=' px-3'>Research</span></Link>
+                  <Link href='/research'><span className=' px-3'>Research</span></Link>
                 </li>
                 <li>
-                  <Link href='#'><span className=' px-3'>Events</span></Link>
+                  <Link href='/events'><span className=' px-3'>Events</span></Link>
                 </li>
                 <li>
-                  <Link href='#'><span className=' flex px-3'>Quick Links</span></Link>
+                  <Link href='/quicklinks'><span className=' flex px-3'>Quick Links</span></Link>
                 </li>
                 <li>
-                  <Link href='#'><span className='flex  px-3'>Contact Us</span></Link>
+                  <Link href='/contactus'><span className='flex  px-3'>Contact Us</span></Link>
                 </li>
 
 
