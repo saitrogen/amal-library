@@ -20,7 +20,7 @@ const Header = () => {
               <span className='text-slate-100 text-3xl sm:text-4xl font-medium '>Library</span>
             </div>
             <div className='flex flex-row justify-end items-center gap-2 '>
-            <ModeToggle />
+            <ModeToggle className='block sm:hidden' />
             <Menu className='sm:hidden text-slate-100' width={32} height={32}  />
             </div>
           </div>
@@ -30,10 +30,10 @@ const Header = () => {
             <nav className=' hidden sm:flex '>
               <ul className='flex justify-end items-center text-slate-100 text-md font-medium '>
                 <li>
-                  <Link href='#'><span className=' px-3'>Home</span></Link>
+                  <Link href='/'><span className=' px-3'>Home</span></Link>
                 </li>
                 <li className=''>
-                  <Link href='#'> <span className=' px-3'>About</span></Link>
+                  <Link href='/about'> <span className=' px-3'>About</span></Link>
                 </li>
                 <li>
                   <Link href='#'><span className=' px-3'>Digital</span></Link>
@@ -45,10 +45,10 @@ const Header = () => {
                   <Link href='#'><span className=' px-3'>Events</span></Link>
                 </li>
                 <li>
-                  <Link href='#'><span className=' px-3'>Quick Links</span></Link>
+                  <Link href='#'><span className=' flex px-3'>Quick Links</span></Link>
                 </li>
                 <li>
-                  <Link href='#'><span className=' px-3'>Contact Us</span></Link>
+                  <Link href='#'><span className='flex  px-3'>Contact Us</span></Link>
                 </li>
 
 
@@ -56,8 +56,9 @@ const Header = () => {
             </nav>
             <div className='flex flex-row '>
 
-              <div className=' py-3 w-[1px] mr-3 bg-slate-700 hidden sm:block' />
+              <div className=' py-3 w-[1px] mr-0 bg-slate-700 hidden sm:block' />
               <div className='flex-row gap-3 items-center hidden  sm:flex'>
+                <ModeToggle />
                 <div className=''>
                   <a target='_blank' rel="noopener noreferrer" href={'https://www.instagram.com/'}><Instagram color='#fff' cursor={'pointer'} /></a>
                 </div>
