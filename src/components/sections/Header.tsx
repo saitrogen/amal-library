@@ -8,7 +8,7 @@ import { ModeToggle } from '../mode-toggle';
 
 const Header = () => {
   return (
-    <header className='bg-slate-600 py-3 w-screen '>
+    <header id='header' className='bg-slate-600 py-3 w-screen  sticky top-0 z-[100]'>
       <div className=' px-1 sm:px-4 md:px-8 h-auto w-auto items-center  '>
         <div id='log-nav-div' className='flex flex-col items-center h-auto w-full sm:justify-center justify-between sm:gap-2 lg:flex-row  lg:justify-between '>
 

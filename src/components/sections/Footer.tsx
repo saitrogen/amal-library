@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='bg-slate-600 py-3 w-screen '>
       
      
 

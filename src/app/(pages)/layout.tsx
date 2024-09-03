@@ -1,18 +1,24 @@
-import { Layout } from "antd";
-import { Content } from "antd/es/layout/layout";
+import Sidebar from "@/components/sections/Sidebar";
+import Layout from "antd/es/layout/layout";
 import Sider from "antd/es/layout/Sider";
 
-export default function PageLayout({ children }: { children: React.ReactNode }) {
-  return <>
+
+export default function pagesLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <>
     <Layout>
-      <Layout>
-        <Sider></Sider>
-        <Content>
-        {children}
-        </Content>
-
-      </Layout>
+      <Sider>
+        
+          
+      <Sidebar  />
+        
+      </Sider>
+    
+      {children}
+   
     </Layout>
+    </>
+    
 
-  </>;
+  );
 }
