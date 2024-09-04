@@ -31,11 +31,13 @@ export const ModeToggle = React.forwardRef<HTMLDivElement , ModeToggleProps>(
 
     return (
       <Comp
-      className={cn(className)}
+      className={cn(className) }
       ref={ref}
       {...props}
     >
-      <DropdownMenu>
+
+    
+      <DropdownMenu >
         <DropdownMenuTrigger asChild>
           <Button variant="ghost" size="icon" className="" >
             <Sun className="h-[1.4rem] w-[1.4rem] rotate-0 scale-100 text-slate-100 transition-all dark:-rotate-90 dark:scale-0" />
@@ -55,6 +57,7 @@ export const ModeToggle = React.forwardRef<HTMLDivElement , ModeToggleProps>(
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
+      
       </Comp>
     )
   }
