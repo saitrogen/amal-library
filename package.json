@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/nextjs-registry": "^1.0.1",
     "@eslint/config-array": "^0.18.0",
     "@eslint/object-schema": "^2.1.4",
     "@nextui-org/divider": "^2.0.31",

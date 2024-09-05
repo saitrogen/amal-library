@@ -1,4 +1,7 @@
 
+// git config --global --unset user.name
+// git config --global --unset user.email
+
 // const items3 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, index) => {
 //   const key = String(index + 1);
 //   return {

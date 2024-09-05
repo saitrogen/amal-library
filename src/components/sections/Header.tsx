@@ -56,9 +56,9 @@ const Header = () => {
             </nav>
             <div className='flex flex-row '>
 
-              <div className=' py-3 w-[1px] mr-0 bg-slate-700 hidden sm:block' />
+              <div className=' py-3 w-[1px] mr-3 bg-slate-700 hidden sm:block' />
               <div className='flex-row gap-3 items-center hidden  sm:flex'>
-                <ModeToggle className='z-[1001]' />
+                {/* <ModeToggle className='z-[1001]' /> */}
                 <div className=''>
                   <a target='_blank' rel="noopener noreferrer" href={'https://www.instagram.com/'}><Instagram color='#fff' cursor={'pointer'} /></a>
                 </div>
